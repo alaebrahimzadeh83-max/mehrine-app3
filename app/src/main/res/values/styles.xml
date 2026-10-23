@@ -1,0 +1,5 @@
+<resources>
+ <style name="Theme.Mehrineh" parent="android:style/Theme.Material.Light.NoActionBar">
+  <item name="android:fontFamily">sans</item><item name="android:statusBarColor">#FCF9FD</item><item name="android:windowLightStatusBar">true</item><item name="android:navigationBarColor">#FCF9FD</item><item name="android:windowLightNavigationBar">true</item><item name="android:windowActionModeOverlay">true</item><item name="android:colorAccent">#EE3368</item><item name="android:windowBackground">#FCF9FD</item>
+ </style>
+</resources>

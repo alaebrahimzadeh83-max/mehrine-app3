@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+ <uses-permission android:name="android.permission.INTERNET"/>
+ <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+ <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+ <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+ <queries><intent><action android:name="android.speech.RecognitionService"/></intent><package android:name="ir.snapp.client"/><package android:name="ir.snapp.driver"/><package android:name="com.aparat.filimo"/><package android:name="com.mobiliha.badesaba"/><package android:name="com.whatsapp"/></queries>
+ <application android:allowBackup="false" android:label="مهرینه" android:theme="@style/Theme.Mehrineh" android:supportsRtl="true" android:usesCleartextTraffic="false">
+  <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+  <receiver android:name=".ReminderReceiver" android:exported="false"/>
+ </application>
+</manifest>
